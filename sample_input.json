@@ -1,0 +1,29 @@
+{
+  "documents": [
+    {
+      "id": "cell-representations",
+      "url": "https://www.nature.com/articles/s41586-026-10689-z",
+      "text": "Project-authored reading note: Single-cell representation models learn reusable descriptions of expression profiles. A practical benchmark should hold out donors or studies, compare simple baselines, and distinguish cell annotation from biological mechanism discovery. This note is a project summary, not a quote from a paper."
+    },
+    {
+      "id": "perturbation-evaluation",
+      "url": "https://www.nature.com/articles/s41592-025-02980-0",
+      "text": "Project-authored reading note: Perturbation response prediction needs evaluation across unseen cellular contexts and interventions. Simple baselines are important. Similarity of average expression is not sufficient evidence that a model predicts meaningful changes. This note is a project summary, not a quote from a paper."
+    },
+    {
+      "id": "microscopy-evaluation",
+      "url": "https://www.nature.com/articles/s41592-025-02879-w",
+      "text": "Project-authored reading note: Cell segmentation identifies object boundaries in biological images. Evaluation should separate specimens and acquisition conditions. Pixel overlap and instance detection measure different error types. This note is a project summary, not a quote from a paper."
+    }
+  ],
+  "question": "How should cell representation annotation be evaluated?",
+  "fixture_answer": {
+    "answer": "Use independent donor or study holdouts and compare with simple baselines.",
+    "evidence": [
+      {
+        "source": "cell-representations",
+        "quote": "A practical benchmark should hold out donors or studies, compare simple baselines, and distinguish cell annotation from biological mechanism discovery."
+      }
+    ]
+  }
+}

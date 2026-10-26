@@ -1,0 +1,35 @@
+{
+  "project": "Biology Methods Literature RAG",
+  "mode": "fixture",
+  "response": {
+    "answer": "Use independent donor or study holdouts and compare with simple baselines.",
+    "evidence": [
+      {
+        "source": "cell-representations",
+        "quote": "A practical benchmark should hold out donors or studies, compare simple baselines, and distinguish cell annotation from biological mechanism discovery."
+      }
+    ]
+  },
+  "retrieved": [
+    {
+      "id": "cell-representations:0",
+      "source": "cell-representations",
+      "text": "Project-authored reading note: Single-cell representation models learn reusable descriptions of expression profiles. A practical benchmark should hold out donors or studies, compare simple baselines, and distinguish cell annotation from biological mechanism discovery. This note is a project summary, not a quote from a paper.",
+      "tenant": "public",
+      "score": 3.0346600698304167
+    },
+    {
+      "id": "microscopy-evaluation:0",
+      "source": "microscopy-evaluation",
+      "text": "Project-authored reading note: Cell segmentation identifies object boundaries in biological images. Evaluation should separate specimens and acquisition conditions. Pixel overlap and instance detection measure different error types. This note is a project summary, not a quote from a paper.",
+      "tenant": "public",
+      "score": 0.9769214665797915
+    }
+  ],
+  "source_links": {
+    "cell-representations": "https://www.nature.com/articles/s41586-026-10689-z",
+    "perturbation-evaluation": "https://www.nature.com/articles/s41592-025-02980-0",
+    "microscopy-evaluation": "https://www.nature.com/articles/s41592-025-02879-w"
+  },
+  "scope": "Research notes and provenance checks; no clinical guidance"
+}
